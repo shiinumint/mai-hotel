@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>maiHello</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+
+  <!-- 
+   in "package.json"
+
+   "scripts": {
+    "dev": "vite", //Run developer mode to test it live
+    "build": "vite build", //build the src as dist
+    "preview": "vite preview", //preview the dist
+    "test": "echo \"Error: no test specified\" && exit 1" //example
+    },
+
+    to use type either "npm run dev","npm run build","npm run preview"
+    to exit press "ctrl + c"
+  -->
+
+
+  <!-- Header Example-->
+  <h1>This is maiHelloworld!</h1>
+  <h2>This is maiHelloworld!</h2>
+  <h3>This is maiHelloworld!</h3>
+  <h4>This is maiHelloworld!</h4>
+  <h5>This is maiHelloworld!</h5>
+  <h6>This is maiHelloworld!</h6>
+
+  <!-- Anchor Example-->
+  <p><a href="https://maimai.sega.com/">This is maiHelloworld!</a></p>
+
+  <!-- Container Example-->
+  <div class="container bg-danger">default</div>
+  <div class="container-sm bg-primary">100% wide until small breakpoint</div>
+  <div class="container-md bg-primary-subtle">100% wide until medium breakpoint</div>
+  <div class="container-lg bg-secondary">100% wide until large breakpoint</div>
+  <div class="container-xl bg-secondary-subtle">100% wide until extra large breakpoint</div>
+  <div class="container-xxl bg-success">100% wide until extra extra large breakpoint</div>
+  <div class="container-fluid bg-success-subtle">100% wide until extra extra large breakpoint</div>
+  
+  <!-- Horizontal Rule / BreakLine Rule Example-->
+  <hr>
+  <br>
+
+  <!-- Image Example-->
+  <div>
+    <img src="https://maimai.sega.com/assets/img/prism/top/kv.png" alt="">
+  </div>
+
+  <!-- Audio Example-->
+  <audio autoplay controls>
+      <source src="">
+  </audio>
+  
+  <!-- Video Example--> 
+  <div>
+    <video src="assets/videos/wifiMiku.mp4"></video>
+  </div>
+
+  <!-- Embed / Iframe Example-->
+  <div>
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/vEhZzJM-8DM?si=8s0GjCbEqUkomnuG" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+  </div>
+  
+  <!-- Button Example-->
+  <button class="btn btn-primary">Click to get good at maimai</button>
+
+  <!-- List (unordered/ordered) Example-->
+  <ul>
+    <li>lol1</li>
+    <li>lol2</li>
+    <li>lol3</li>
+    <li>lol4</li>
+  </ul>
+
+  <ol>
+    <li>nom1</li>
+    <li>nom2</li>
+    <li>nom3</li>
+    <li>nom4</li>
+  </ol>
+
+  <!-- Table Example-->
+  <h4>maiRating throughout:</h4>
+  <table border="1">
+    <tr>
+        <td>PRISM PLUS</td>
+        <td>PRISM</td>
+        <td>BUDDIES PLUS</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>15304</td>
+      <td>14194</td>
+    </tr>
+  </table> 
+
+  <!-- Form Example-->
+  <div>
+      <form action="">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" placeholder="Your REAL name" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" required>
+        <label for="scam">Your Lucky Number:</label>
+        <input type="number" id="number" placeholder="MIne is 168">
+        <input type="submit">
+    </form>
+  </div>
+
+</body>
+</html>

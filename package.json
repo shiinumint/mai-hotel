@@ -1,0 +1,30 @@
+{
+  "name": "mai-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiinumint/mai-boilerplate.git"
+  },
+  "author": "shiinumint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiinumint/mai-boilerplate/issues"
+  },
+  "homepage": "https://github.com/shiinumint/mai-boilerplate#readme",
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "vite": "^7.0.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.7"
+  }
+}
