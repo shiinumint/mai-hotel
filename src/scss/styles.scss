@@ -1,2 +1,28 @@
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
+
+
+$mai-color-primary :#F1E1C5;
+$mai-color-primary-light :#f7f2e7;
+$mai-color-gray :rgb(128, 128, 128);
+
+.bg-mai-primary {
+  background-color: $mai-color-primary;
+}
+
+.bg-mai-primary-light {
+  background-color: $mai-color-primary-light;
+}
+
+.oasis {
+  padding-top: 200px;
+  @extend .container-xl 
+}
+
+.mai-gray {
+  color: $mai-color-gray;
+}
+
+.shop {
+  padding: 0 100px;
+}

@@ -1,128 +1,173 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>maiHello</title>
+  <title>maiHotel</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <script type="module" src="./js/main.js"></script>
 </head>
+
 <body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-mai-primary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/Images/mai-brand.png" alt="" width="50" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
 
-  <!-- 
-   in "package.json"
+          <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+          <a class="nav-link" href="#">ROOMS & SUITES</a>
+          <a class="nav-link" href="#">DINING</a>
+          <a class="nav-link" href="#">OFFERS</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-   "scripts": {
-    "dev": "vite", //Run developer mode to test it live
-    "build": "vite build", //build the src as dist
-    "preview": "vite preview", //preview the dist
-    "test": "echo \"Error: no test specified\" && exit 1" //example
-    },
-
-    to use type either "npm run dev","npm run build","npm run preview"
-    to exit press "ctrl + c"
-  -->
-
-
-  <!-- Header Example-->
-  <h1>This is maiHelloworld!</h1>
-  <h2>This is maiHelloworld!</h2>
-  <h3>This is maiHelloworld!</h3>
-  <h4>This is maiHelloworld!</h4>
-  <h5>This is maiHelloworld!</h5>
-  <h6>This is maiHelloworld!</h6>
-
-  <!-- Anchor Example-->
-  <p><a href="https://maimai.sega.com/">This is maiHelloworld!</a></p>
-
-  <!-- Container Example-->
-  <div class="container bg-danger">default</div>
-  <div class="container-sm bg-primary">100% wide until small breakpoint</div>
-  <div class="container-md bg-primary-subtle">100% wide until medium breakpoint</div>
-  <div class="container-lg bg-secondary">100% wide until large breakpoint</div>
-  <div class="container-xl bg-secondary-subtle">100% wide until extra large breakpoint</div>
-  <div class="container-xxl bg-success">100% wide until extra extra large breakpoint</div>
-  <div class="container-fluid bg-success-subtle">100% wide until extra extra large breakpoint</div>
-  
-  <!-- Horizontal Rule / BreakLine Rule Example-->
-  <hr>
-  <br>
-
-  <!-- Image Example-->
-  <div>
-    <img src="https://maimai.sega.com/assets/img/prism/top/kv.png" alt="">
+  <!-- oasis -->
+  <div class="oasis" style="background-image: url(); object-fit:cover;">
+    <div class="container">
+      <div class="text-center py-5">
+        <p>ABOUT</p>
+        <h2>AN ART-FILLED <i>oasis</i> IN SOUTH-EAST ASIA</h2>
+      </div>
+    </div>
   </div>
 
-  <!-- Audio Example-->
-  <audio autoplay controls>
-      <source src="">
-  </audio>
-  
-  <!-- Video Example--> 
-  <div>
-    <video src="assets/videos/wifiMiku.mp4"></video>
+  <!-- intro and contact -->
+  <div class="container-fluid bg-mai-primary-light pb-3">
+    <div class="container-xxl">
+      <div class="row px-5">
+        <div class="col-md-12 col-lg-6">
+          <h3 class="py-5">Where Culture, Elegance, and Comfort Converge</h3>
+          <p class="">Mai Mai Hotel offers a refined escape in the heart of Depok, seamlessly blending modern luxury
+            with local heritage. Ideally situated near the city’s vibrant business and lifestyle districts, our hotel
+            provides direct access to popular shopping destinations and cultural landmarks. Whether you're here for work
+            or relaxation, you'll find yourself moments away from key venues and just a short drive from both central
+            Jakarta and Soekarno-Hatta International Airpor</p>
+        </div>
+        <div class="col-md-12 offset-lg-2 col-lg-4">
+          <h4 class="pt-5 mt-4">Contact Us</h4>
+          <ul>
+            <li>+62 21 2988 0888</li>
+            <li>hello@maimaihotel.com</li>
+            <li>Mai Mai Hotel – Depok City Center
+              Jl. Margonda Raya No. 123
+              Depok 16424, Indonesia
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <!-- Embed / Iframe Example-->
-  <div>
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/vEhZzJM-8DM?si=8s0GjCbEqUkomnuG" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-  </iframe>
+  <!-- discover -->
+
+  <div class="container-fluid">
+    <div class="container-md">
+      <div class="row pt-5 px-5 text-center">
+        <div class="col-lg-6 col-12 offset-lg-3">
+          <h2 class="pb-md-3">Discover Mai Mai Hotel</h2>
+          <p>Located in the lively center of Depok, Mai Mai Hotel is a stylish sanctuary where comfort meets culture.
+            Step inside and explore our thoughtfully designed spaces, exceptional amenities, and warm hospitality made
+            to elevate every stay.</p>
+        </div>
+      </div>
+    </div>
   </div>
-  
-  <!-- Button Example-->
-  <button class="btn btn-primary">Click to get good at maimai</button>
-
-  <!-- List (unordered/ordered) Example-->
-  <ul>
-    <li>lol1</li>
-    <li>lol2</li>
-    <li>lol3</li>
-    <li>lol4</li>
-  </ul>
-
-  <ol>
-    <li>nom1</li>
-    <li>nom2</li>
-    <li>nom3</li>
-    <li>nom4</li>
-  </ol>
-
-  <!-- Table Example-->
-  <h4>maiRating throughout:</h4>
-  <table border="1">
-    <tr>
-        <td>PRISM PLUS</td>
-        <td>PRISM</td>
-        <td>BUDDIES PLUS</td>
-    </tr>
-    <tr>
-      <td>-</td>
-      <td>15304</td>
-      <td>14194</td>
-    </tr>
-  </table> 
-
-  <!-- Form Example-->
-  <div>
-      <form action="">
-        <label for="nama">Nama:</label>
-        <input type="text" id="nama" placeholder="Your REAL name" required>
-        <label for="password">Password:</label>
-        <input type="password" id="password" placeholder="Password" required>
-        <label for="scam">Your Lucky Number:</label>
-        <input type="number" id="number" placeholder="MIne is 168">
-        <input type="submit">
-    </form>
-  </div>
-
 </body>
+
+<div class="container">
+  <div class="row pt-4">
+    <div class="card col-12 col-md-4 border-0">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mai Mai Spa</h5>
+        <p class="card-text">Our expansive spa offers a serene retreat, with over 2000 sq m of pure relaxation.</p>
+      </div>
+      <div class="card-footer bg-white border-0 d-grid d-md-block"><a href="" class="mai-gray"
+          style="text-decoration:none;">Explore</a></div>
+    </div>
+    <div class="card col-12 col-md-4 border-0">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Outdoor pool</h5>
+        <p class="card-text">The sparkling waters of the outdoor lap pool create a tranquil escape amid lush
+          surroundings.</p>
+      </div>
+      <div class="card-footer bg-white border-0 d-grid d-md-block"><a href="" class="mai-gray"
+          style="text-decoration:none;">Explore</a></div>
+    </div>
+    <div class="card col-12 col-md-4 border-0">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Meeting spaces</h5>
+        <p class="card-text">Eight versatile and sophisticated meeting spaces, designed to inspire productivity and host
+          impactful events.</p>
+      </div>
+      <div class="card-footer bg-white border-0 d-grid d-md-block"><a href="" class="mai-gray"
+          style="text-decoration:none;">Explore</a></div>
+    </div>
+  </div>
+  <div class="row pt-2">
+    <div class="card col-12 col-md-4 border-0">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dedicated planners</h5>
+        <p class="card-text">Celebrate your special occasions with the help of our dedicated team and exceptional
+          attention to detail.</p>
+      </div>
+      <div class="card-footer bg-white border-0 d-grid d-md-block"><a href="" class="mai-gray"
+          style="text-decoration:none;">Explore</a></div>
+    </div>
+    <div class="card col-12 col-md-4 border-0">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Perfect weddings</h5>
+        <p class="card-text">Begin your forever in one of our enchanting venues—where every detail is crafted to create
+          a romantic, unforgettable wedding day at Mai Mai Hotel.</p>
+      </div>
+      <div class="card-footer bg-white border-0 d-grid d-md-block"><a href="" class="mai-gray"
+          style="text-decoration:none;">Explore</a></div>
+    </div>
+    <div class="card col-12 col-md-4 border-0">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mai Mai Signature Host</h5>
+        <p class="card-text">More than a warm welcome, our Signature Host is your personal guide—ready to share the
+          stories behind our hotel’s design, local heritage, and hidden gems, ensuring every moment feels truly special.
+        </p>
+      </div>
+      <div class="card-footer bg-white border-0 d-grid d-md-block"><a href="" class="mai-gray"
+          style="text-decoration:none;">Explore</a></div>
+    </div>
+  </div>
+</div>
+
+ <!-- Shop -->
+  <div class="container-fluid bg-mai-primary-light pb-3">
+    <div class="container-xxl">
+      <div class="row shop">
+        <div class="col-md-12 col-lg-5 px-lg-5">
+          <h4 class="pt-5">Shop with Us</h4>
+          <h3>Mai Mai E-Store</h3>
+          <p class="">Indulge in handpicked delights through our online store—featuring gourmet dining experiences, artisanal pastries, and exclusive seasonal collections curated by Mai Mai Hotel.</p>
+        </div>
+        <div class="col-md-12 col-lg-6 ps-lg-5">
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </html>
