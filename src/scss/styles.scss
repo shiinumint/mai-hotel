@@ -18,7 +18,7 @@ $mai-color-secondary :#BACBDB;
 
 .oasis {
   padding-top: 200px;
-  @extend .container-xl
+  @extend .container-fluid
 }
 
 .mai-gray {
@@ -57,4 +57,28 @@ $mai-color-secondary :#BACBDB;
     color:$mai-color-secondary;
   }
 
+}
+
+.stylish {
+  padding-top: 100px;
+  @extend .container-fluid
+}
+
+.second-background {
+  height: 300px;
+  background-color: $mai-color-primary;
+}
+
+.rooms-suites-club-contents {
+  margin-top: -150px;
+}
+
+.rooms-suites-img-top {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.rooms-suites-club-card {
+  @extend .card, .col-12, .col-xl-4, .border-0, .px-lg-3, .px-3, .bg-transparent;
 }
